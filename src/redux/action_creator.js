@@ -1,9 +1,10 @@
 import * as ActionTypes from './action_types';
 
-const url = 'https://app.herokuapp.com';
+//const url = 'https://app.herokuapp.com';
 const userFakeData = {
     username:"swetabh",
-    password:"0000"
+    password:"0000",
+    token:"ey.kgueibdjkqbehduibqdjkqidqwedq3rv"
 }
 
 export const userLogin= (data,history) => dispatch => {

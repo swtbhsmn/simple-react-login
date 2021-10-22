@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter, Switch, Route } from 'react-router-dom';
+import { withRouter, Switch, Route ,Redirect} from 'react-router-dom';
 import { connect } from 'react-redux';
 import Home from './home';
 import Login from './login';
@@ -18,8 +18,13 @@ const mapDispatchToProps = dispatch => ({
 class Main extends React.Component {
     constructor(props) {
         super(props)
+   
+    }
+    componentDidMount(){
+        console.log(this.props)
     }
     render() {
+       
         return (
             <div className="main">
                 <Switch>
@@ -31,7 +36,7 @@ class Main extends React.Component {
                     <Route
                         exact={true}
                         path={'/home'}
-                        component={()=><Home props={this.props}/>}
+                        component={()=> this.props.user.data.token!==undefined?<Home props={this.props}/>:<Redirect to="/"/>}
                     />
                 </Switch>
               

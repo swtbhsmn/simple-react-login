@@ -7,9 +7,8 @@ export const user = (state = { isLoading: false, errMess: null, data: [] }, acti
       return { ...state, isLoading: false, errMess: action.payload };
     case ActionTypes.LOGGING_SUCCESS:
       return { ...state, isLoading: false, errMess: null, data: action.payload };
-    case ActionTypes.LOGGING_SUCCESS:
+    case ActionTypes.LOGGING:
       return { ...state, isLoading: true, errMess: null };
-
     default:
       return state;
   }
