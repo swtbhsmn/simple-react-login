@@ -30,6 +30,7 @@ class Login extends React.Component{
         return(
             <>
                <div className="login-container">
+                 <h6 style={{color:"red"}}>{this.props.props.user.errMess}</h6>
                     <h3>Login</h3>
                   <form onSubmit={this.handleSubmit}>
                   <div>

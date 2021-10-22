@@ -38,6 +38,11 @@ class Main extends React.Component {
                         path={'/home'}
                         component={()=> this.props.user.data.token!==undefined?<Home props={this.props}/>:<Redirect to="/"/>}
                     />
+                    <Route
+                        exact={false}
+                        path={'/*'}
+                        component={()=> this.props.user.data.token!==undefined?<Home props={this.props}/>:<Redirect to="/"/>}
+                    />
                 </Switch>
               
             </div>
