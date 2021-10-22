@@ -42,6 +42,13 @@ class Login extends React.Component{
                     </div>
                     <button type="sumit">Button</button>
                   </form>
+                  <div>
+                      Type:-
+                      <br/>
+                      username:swetabh
+                      <br/>
+                      password:0000
+                  </div>
                </div>
             </>
         )
