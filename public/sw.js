@@ -1,8 +1,13 @@
 var CACHE_NAME = 'react-app';
-var urlsToCache = [
+var urlsToCache1 = [
     '/static/js/bundle.js',
     '/static/js/main.chunk.js',
     '/static/js/vendors~main.chunk.js'
+];
+var urlsToCache = [
+    '/static/css/main.550b4654.chunk.css',
+    '/static/js/2.a332e50b.chunk.js',
+    '/static/js/main.481253bf.chunk.js'
 ];
 self.document = self;
 self.window = self;
