@@ -7,7 +7,7 @@ var urlsToCache1 = [
 var urlsToCache = [
     '/static/css/main.550b4654.chunk.css',
     '/static/js/2.a332e50b.chunk.js',
-    '/static/js/main.481253bf.chunk.js'
+    '/static/js/main.008a9d78.chunk.js'
 ];
 self.document = self;
 self.window = self;
