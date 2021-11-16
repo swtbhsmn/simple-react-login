@@ -1,15 +1,24 @@
 var CACHE_NAME = 'react-app';
-var urlsToCache1 = [
+var urlsToCache = [
     '/static/js/bundle.js',
     '/static/js/main.chunk.js',
     '/static/js/vendors~main.chunk.js'
 ];
-var urlsToCache = [
+
+/* var urlsToCache = [
     '/static/css/main.550b4654.chunk.css',
+    '/static/css/main.550b4654.chunk.css.map',
     '/static/js/2.a332e50b.chunk.js',
-    '/static/js/main.008a9d78.chunk.js'
-];
-self.document = self;
+    '/static/js/2.a332e50b.chunk.js.LICENSE.txt',
+    '/static/js/2.a332e50b.chunk.js.map',
+    '/static/js/3.d5cb0be7.chunk.js',
+    '/static/js/3.d5cb0be7.chunk.js.map',
+    '/static/js/main.008a9d78.chunk.js',
+    '/static/js/main.008a9d78.chunk.js.map',
+    '/static/js/runtime-main.440d6f10.js',
+    '/static/js/runtime-main.440d6f10.js.map'
+]; */
+
 self.window = self;
 self.addEventListener('install', function (event) {
     // Perform install steps
