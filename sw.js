@@ -1,8 +1,6 @@
 var CACHE_NAME = 'react-app';
 var urlsToCache = [
-    '/static/js/bundle.js',
-    '/static/js/main.chunk.js',
-    '/static/js/vendors~main.chunk.js'
+   '/'
 ];
 
 /* var urlsToCache = [
